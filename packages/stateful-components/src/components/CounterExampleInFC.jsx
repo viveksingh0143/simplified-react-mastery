@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 function CounterExampleInFC() {
   const [count, setCount] = useState(0);
+  
 
   const incrementCount = () => {
     setCount(count + 1);
